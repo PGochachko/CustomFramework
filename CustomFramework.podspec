@@ -15,9 +15,9 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "PGCustomFramework"
+  spec.name         = "CustomFramework"
   spec.version      = "0.0.3"
-  spec.summary      = "A short description of PGCustomFramework."
+  spec.summary      = "A short description of CustomFramework."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?

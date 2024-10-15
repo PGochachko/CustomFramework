@@ -10,6 +10,8 @@
 		E9D17A362CB7E62300470446 /* CustomFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D17A332CB7E62300470446 /* CustomFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E9D17A372CB7E62300470446 /* CustomFramework.docc in Sources */ = {isa = PBXBuildFile; fileRef = E9D17A342CB7E62300470446 /* CustomFramework.docc */; };
 		E9D17A3A2CB7E62600470446 /* CustomFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D17A382CB7E62600470446 /* CustomFrameworkTests.m */; };
+		E9D17A3D2CB82DFA00470446 /* MyClass.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D17A3C2CB82DF100470446 /* MyClass.h */; };
+		E9D17A3F2CB82E0100470446 /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D17A3E2CB82E0000470446 /* MyClass.m */; };
 		E9F9960B2CB7DE5600D16D9F /* CustomFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9F996002CB7DE5600D16D9F /* CustomFramework.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +29,8 @@
 		E9D17A332CB7E62300470446 /* CustomFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomFramework.h; sourceTree = "<group>"; };
 		E9D17A342CB7E62300470446 /* CustomFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = CustomFramework.docc; sourceTree = "<group>"; };
 		E9D17A382CB7E62600470446 /* CustomFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomFrameworkTests.m; sourceTree = "<group>"; };
+		E9D17A3C2CB82DF100470446 /* MyClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
+		E9D17A3E2CB82E0000470446 /* MyClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
 		E9F996002CB7DE5600D16D9F /* CustomFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CustomFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9F9960A2CB7DE5600D16D9F /* CustomFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -53,6 +57,8 @@
 		E9D17A352CB7E62300470446 /* CustomFramework */ = {
 			isa = PBXGroup;
 			children = (
+				E9D17A3E2CB82E0000470446 /* MyClass.m */,
+				E9D17A3C2CB82DF100470446 /* MyClass.h */,
 				E9D17A332CB7E62300470446 /* CustomFramework.h */,
 				E9D17A342CB7E62300470446 /* CustomFramework.docc */,
 			);
@@ -93,6 +99,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9D17A362CB7E62300470446 /* CustomFramework.h in Headers */,
+				E9D17A3D2CB82DFA00470446 /* MyClass.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9D17A3F2CB82E0100470446 /* MyClass.m in Sources */,
 				E9D17A372CB7E62300470446 /* CustomFramework.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

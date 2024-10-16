@@ -16,10 +16,11 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "CustomFramework"
-  spec.version      = "0.0.5"
+  spec.version      = "0.0.6"
   spec.summary      = "A short description of CustomFramework."
   spec.module_name   = "CustomFramework"
   spec.swift_version = "4.0"
+
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.

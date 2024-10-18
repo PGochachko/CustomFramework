@@ -16,10 +16,10 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "CustomFramework"
-  spec.version      = "0.0.11"
+  spec.version      = "0.0.12"
   spec.summary      = "A short description of CustomFramework."
   spec.module_name   = "CustomFramework"
-  spec.swift_version = "4.0"
+  spec.swift_version = "5.9"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -39,8 +39,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
-  spec.license      = { :type => "MIT", :file => "License" }
+  spec.license      = { :type => 'MIT', :file => 'License' }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -64,11 +63,11 @@ Pod::Spec.new do |spec|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  spec.platform     = :ios, "10.0"
+  # spec.platform     = :ios, "10.0"
   # spec.platform     = :ios, "5.0"
 
   #  When using multiple platforms
-  # spec.ios.deployment_target = "15.0"
+  spec.ios.deployment_target = "12.0"
   # spec.osx.deployment_target = "10.7"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"

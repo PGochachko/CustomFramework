@@ -82,7 +82,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.source       = { :git => "http://tfs.test.ru/CustomFramework.git", :tag => "#{spec.version}" }
-  spec.source       = { :git => ".git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "./.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

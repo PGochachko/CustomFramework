@@ -64,7 +64,7 @@ Pod::Spec.new do |spec|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  spec.platform     = :ios, "15.0"
+  spec.platform     = :ios, "10.0"
   # spec.platform     = :ios, "5.0"
 
   #  When using multiple platforms

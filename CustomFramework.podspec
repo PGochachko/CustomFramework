@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "CustomFramework"
-  spec.version      = "0.0.10"
+  spec.version      = "0.0.11"
   spec.summary      = "A short description of CustomFramework."
   spec.module_name   = "CustomFramework"
   spec.swift_version = "4.0"
@@ -82,7 +82,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.source       = { :git => "http://tfs.test.ru/CustomFramework.git", :tag => "#{spec.version}" }
-  spec.source       = { :git => "./.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/PGochachko/CustomFramework.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

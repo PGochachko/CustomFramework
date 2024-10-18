@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "CustomFramework"
-  spec.version      = "0.0.7"
+  spec.version      = "0.0.8"
   spec.summary      = "A short description of CustomFramework."
   spec.module_name   = "CustomFramework"
   spec.swift_version = "4.0"
